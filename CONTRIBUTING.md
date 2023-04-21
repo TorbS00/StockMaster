@@ -37,8 +37,3 @@ Please note that all contributions to StockMaster are subject to the [Code of Co
 ## License
 
 By contributing to StockMaster, you agree to release your contributions under the [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](https://github.com/YourUsername/StockMaster/blob/main/LICENSE) for more information.
-
-## Contact
-
-If you have any questions or need further clarification, please contact [YourEmail](mailto:youremail@example.com).
-
