@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.torbs00</groupId>
+    <artifactId>StockMaster</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>stock-core</module>
+        <module>stock-api</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>StockMaster</name>
+    <description>The ultimate game-changer for your virtual portfolio - StockMaster.</description>
+    <url>https://github.com/TorbS00/StockMaster</url>
+    <inceptionYear>2022</inceptionYear>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+
+        <caffeine.version>3.1.6</caffeine.version>
+    </properties>
+
+    <developers>
+        <developer>
+            <id>torbs00</id>
+            <name>Torbjørn S</name>
+            <url>https://github.com/TorbS00</url>
+            <roles>
+                <role>creator</role>
+                <role>developer</role>
+            </roles>
+            <timezone>Norway/Oslo</timezone>
+        </developer>
+    </developers>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- Internal dependencies -->
+            <dependency>
+                <groupId>com.github.ben-manes.caffeine</groupId>
+                <artifactId>caffeine</artifactId>
+                <version>${caffeine.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>
