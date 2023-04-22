@@ -10,6 +10,7 @@
     <modules>
         <module>stock-core</module>
         <module>stock-api</module>
+        <module>stock-platform</module>
     </modules>
     <packaging>pom</packaging>
 

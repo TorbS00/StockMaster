@@ -43,6 +43,7 @@ StockMaster is released under the GNU Affero General Public License version 3.0 
 
 ## Acknowledgements
 
+- The architecture and class structure will be heavily inspired by GitHub user [A248](https://github.com/A248).
 - StockMaster is inspired by the concept of virtual stock trading in Minecraft.
 
 ## Contact
