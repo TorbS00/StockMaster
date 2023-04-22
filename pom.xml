@@ -25,6 +25,7 @@
         <maven.compiler.target>17</maven.compiler.target>
 
         <caffeine.version>3.1.6</caffeine.version>
+        <YahooFinanceAPI.version>3.17.0</YahooFinanceAPI.version>
     </properties>
 
     <developers>
@@ -47,6 +48,11 @@
                 <groupId>com.github.ben-manes.caffeine</groupId>
                 <artifactId>caffeine</artifactId>
                 <version>${caffeine.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.yahoofinance-api</groupId>
+                <artifactId>YahooFinanceAPI</artifactId>
+                <version>${YahooFinanceAPI.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

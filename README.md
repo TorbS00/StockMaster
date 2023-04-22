@@ -1,4 +1,5 @@
 # StockMaster
+_**The ultimate game-changer for your virtual portfolio - StockMaster.**_
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Build Status](https://travis-ci.com/YourUsername/StockMaster.svg?branch=main)](https://travis-ci.com/YourUsername/StockMaster)
