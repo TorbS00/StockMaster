@@ -10,7 +10,7 @@ Thank you for your interest in contributing to StockMaster! We welcome contribut
 
 ## Making Changes
 
-- Follow the [code style guidelines](https://github.com/YourUsername/StockMaster/blob/main/CODE_STYLE.md) of StockMaster when making changes.
+- Follow the [code style guidelines](https://github.com/TorbS00/StockMaster/blob/master/docs/CODE_STYLE.md) of StockMaster when making changes.
 - Test your changes thoroughly to ensure they work as expected and do not introduce new issues.
 - Make sure to provide clear and concise commit messages that describe the changes made.
 - If your contribution includes new features or modifications to existing features, please update the relevant documentation and tests accordingly.
@@ -32,7 +32,7 @@ Thank you for your interest in contributing to StockMaster! We welcome contribut
 
 ## Code of Conduct
 
-Please note that all contributions to StockMaster are subject to the [Code of Conduct](https://github.com/YourUsername/StockMaster/blob/main/CODE_OF_CONDUCT.md). By contributing to StockMaster, you are expected to abide by the code of conduct and maintain a respectful and inclusive environment for everyone.
+Please note that all contributions to StockMaster are subject to the [Code of Conduct](https://github.com/TorbS00/StockMaster/blob/master/docs/CODE_OF_CONDUCT.md). By contributing to StockMaster, you are expected to abide by the code of conduct and maintain a respectful and inclusive environment for everyone.
 
 ## License
 
