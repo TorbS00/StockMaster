@@ -1,5 +1,5 @@
 /*
- * stock-core
+ * stock-api
  * Copyright © 2023 TorbS00
  *
  * StockMaster is free software: you can redistribute it and/or modify
@@ -17,17 +17,14 @@
  * and navigate to version 3 of the GNU Affero General Public License.
  */
 
-package com.github.torbs00.stockmaster.core;
-
+package com.github.torbs00.stockmaster.api;
 
 /**
  * @author Torbjørn on 22.04.2023.
  * @project StockMaster.
  */
-public class StockMasterAPI {
+public interface StockMaster {
 
-    public void start() {
 
-    }
 
 }

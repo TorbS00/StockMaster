@@ -3,8 +3,8 @@ _**The ultimate game-changer for your virtual portfolio - StockMaster.**_
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Build Status](https://travis-ci.com/YourUsername/StockMaster.svg?branch=main)](https://travis-ci.com/YourUsername/StockMaster)
-[![Downloads](https://img.shields.io/github/downloads/YourUsername/StockMaster/total.svg)](https://github.com/YourUsername/StockMaster/releases)
-[![Latest Release](https://img.shields.io/github/v/release/YourUsername/StockMaster)](https://github.com/YourUsername/StockMaster/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/YourUsername/StockMaster/total.svg)](https://github.com/TorbS00/StockMaster/releases)
+[![Latest Release](https://img.shields.io/github/v/release/YourUsername/StockMaster)](https://github.com/TorbS00/StockMaster/releases/latest)
 
 StockMaster is a powerful Minecraft plugin that brings stock market functionality into your Minecraft server. With StockMaster, players can buy and sell virtual stocks, track their investments, and experience the thrill of virtual stock trading in the Minecraft world.
 
@@ -19,7 +19,7 @@ StockMaster is a powerful Minecraft plugin that brings stock market functionalit
 
 ## Installation
 
-1. Download the latest release of StockMaster from the [releases](https://github.com/YourUsername/StockMaster/releases) page.
+1. Download the latest release of StockMaster from the [releases](https://github.com/TorbS00/StockMaster/releases) page.
 2. Upload the plugin JAR file to your server's plugins directory.
 3. Restart your Minecraft server.
 4. Configure the plugin settings in the `config.yml` file located in the plugin's folder.
@@ -31,7 +31,7 @@ StockMaster is a powerful Minecraft plugin that brings stock market functionalit
 - Players can buy or sell virtual stocks using in-game currency.
 - Players can track their investments, monitor stock prices, and view their portfolio performance.
 - Server administrators can configure various plugin settings in the `config.yml` file.
-- Detailed plugin usage instructions and commands can be found in the [wiki](https://github.com/YourUsername/StockMaster/wiki).
+- Detailed plugin usage instructions and commands can be found in the [wiki](https://github.com/TorbS00/StockMaster/wiki).
 
 ## Contributing
 

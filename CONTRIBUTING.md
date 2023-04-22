@@ -26,7 +26,7 @@ Thank you for your interest in contributing to StockMaster! We welcome contribut
 
 ## Reporting Issues
 
-- If you encounter any issues or bugs while using StockMaster, please report them on the [Issues](https://github.com/YourUsername/StockMaster/issues) page.
+- If you encounter any issues or bugs while using StockMaster, please report them on the [Issues](https://github.com/TorbS00/StockMaster/issues) page.
 - Provide a clear and detailed description of the issue, including steps to reproduce it.
 - Include any relevant logs or error messages, if applicable.
 
@@ -36,4 +36,4 @@ Please note that all contributions to StockMaster are subject to the [Code of Co
 
 ## License
 
-By contributing to StockMaster, you agree to release your contributions under the [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](https://github.com/YourUsername/StockMaster/blob/main/LICENSE) for more information.
+By contributing to StockMaster, you agree to release your contributions under the [GNU Affero General Public License version 3.0](https://www.gnu.org/licenses/agpl-3.0). See [LICENSE](LICENSE.txt) for more information.
