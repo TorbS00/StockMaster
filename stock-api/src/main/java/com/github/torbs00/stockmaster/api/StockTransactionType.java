@@ -1,5 +1,5 @@
 /*
- * stock-core
+ * stock-api
  * Copyright © 2023 TorbS00
  *
  * StockMaster is free software: you can redistribute it and/or modify
@@ -17,15 +17,29 @@
  * and navigate to version 3 of the GNU Affero General Public License.
  */
 
-package com.github.torbs00.stockmaster.core;
+package com.github.torbs00.stockmaster.api;
 
-import com.github.torbs00.stockmaster.api.StockMaster;
+import java.util.Locale;
 
 /**
- * @author Torbjørn on 22.04.2023.
+ * The type of transaction made by a StockTrader
+ *
+ * @author Torbjørn on 23.04.2023.
  * @project StockMaster.
  */
-public class StockMasterAPI implements StockMaster {
+public enum StockTransactionType {
 
+    BUY,
+    SHORT,
+    SELL;
 
+    /**
+     * Gets the Stock transaction type as a string.
+     *
+     * @return a string value representing the stock transaction type into lowercase
+     */
+    @Override
+    public String toString() {
+        return name().toLowerCase(Locale.ROOT);
+    }
 }

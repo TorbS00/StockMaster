@@ -27,6 +27,7 @@
 
         <caffeine.version>3.1.6</caffeine.version>
         <YahooFinanceAPI.version>3.17.0</YahooFinanceAPI.version>
+        <guice.version>5.1.0</guice.version>
     </properties>
 
     <licenses>
@@ -77,6 +78,12 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- Own dependencies -->
+            <dependency>
+                <groupId>com.github.torbs00</groupId>
+                <artifactId>stock-api</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <!-- Internal dependencies -->
             <dependency>
                 <groupId>com.github.ben-manes.caffeine</groupId>
@@ -87,6 +94,11 @@
                 <groupId>com.yahoofinance-api</groupId>
                 <artifactId>YahooFinanceAPI</artifactId>
                 <version>${YahooFinanceAPI.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.inject</groupId>
+                <artifactId>guice</artifactId>
+                <version>${guice.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

@@ -20,12 +20,20 @@
     <dependencies>
         <!-- Internal dependencies -->
         <dependency>
+            <groupId>com.github.torbs00</groupId>
+            <artifactId>stock-api</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>
         </dependency>
         <dependency>
             <groupId>com.yahoofinance-api</groupId>
             <artifactId>YahooFinanceAPI</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
         </dependency>
     </dependencies>
 
