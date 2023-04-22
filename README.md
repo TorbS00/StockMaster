@@ -1,6 +1,6 @@
 # StockMaster
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Build Status](https://travis-ci.com/YourUsername/StockMaster.svg?branch=main)](https://travis-ci.com/YourUsername/StockMaster)
 [![Downloads](https://img.shields.io/github/downloads/YourUsername/StockMaster/total.svg)](https://github.com/YourUsername/StockMaster/releases)
 [![Latest Release](https://img.shields.io/github/v/release/YourUsername/StockMaster)](https://github.com/YourUsername/StockMaster/releases/latest)
@@ -38,7 +38,7 @@ If you would like to contribute to StockMaster, feel free to open an issue or su
 
 ## License
 
-StockMaster is released under the [MIT License](https://opensource.org/licenses/MIT). See [LICENSE](LICENSE) for more information.
+StockMaster is released under the GNU Affero General Public License version 3.0 (AGPL-3.0). See [LICENSE](LICENSE.txt) for more information.
 
 ## Acknowledgements
 
