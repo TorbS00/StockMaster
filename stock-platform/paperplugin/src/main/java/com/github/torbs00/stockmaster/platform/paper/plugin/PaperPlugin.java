@@ -19,6 +19,8 @@
 
 package com.github.torbs00.stockmaster.platform.paper.plugin;
 
+import com.github.torbs00.stockmaster.foundation.Foundation;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;
@@ -33,8 +35,17 @@ import java.util.logging.Level;
  */
 public class PaperPlugin extends JavaPlugin {
 
+    Foundation foundation;
+
     @Override
     public synchronized void onEnable() {
+
+        String serverVersion = Bukkit.getVersion();
+
+        if(!serverVersion.contains("Paper")) {
+            getServer().getPluginManager().disablePlugin(this);
+        }
+
         getLogger().log(Level.INFO, "Paper found!");
     }
 
