@@ -44,6 +44,11 @@ public class SpigotPlugin extends JavaPlugin {
 
         if(!serverVersion.contains("Spigot")) {
             getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
+        if(foundation != null) {
+            throw new IllegalStateException("Plugin enabled twice?");
         }
 
         getLogger().log(Level.INFO, "Spigot found!");

@@ -44,6 +44,11 @@ public class PaperPlugin extends JavaPlugin {
 
         if(!serverVersion.contains("Paper")) {
             getServer().getPluginManager().disablePlugin(this);
+            return;
+        }
+
+        if(foundation != null) {
+            throw new IllegalStateException("Plugin enabled twice?");
         }
 
         getLogger().log(Level.INFO, "Paper found!");
