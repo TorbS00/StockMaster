@@ -28,6 +28,8 @@
         <caffeine.version>3.1.6</caffeine.version>
         <YahooFinanceAPI.version>3.17.0</YahooFinanceAPI.version>
         <guice.version>5.1.0</guice.version>
+        <spigot-api.version>1.17-R0.1-SNAPSHOT</spigot-api.version>
+        <paper-api.version>1.17-R0.1-SNAPSHOT</paper-api.version>
     </properties>
 
     <licenses>
@@ -99,6 +101,18 @@
                 <groupId>com.google.inject</groupId>
                 <artifactId>guice</artifactId>
                 <version>${guice.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.spigotmc</groupId>
+                <artifactId>spigot-api</artifactId>
+                <version>${spigot-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>io.papermc.paper</groupId>
+                <artifactId>paper-api</artifactId>
+                <version>${paper-api.version}</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
