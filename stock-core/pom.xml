@@ -24,6 +24,10 @@
             <artifactId>stock-api</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.github.torbs00</groupId>
+            <artifactId>stock-foundation</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>
         </dependency>
