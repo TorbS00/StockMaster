@@ -1,5 +1,5 @@
 /*
- * spigotplugin
+ * stock-foundation
  * Copyright © 2023 TorbS00
  *
  * StockMaster is free software: you can redistribute it and/or modify
@@ -17,30 +17,15 @@
  * and navigate to version 3 of the GNU Affero General Public License.
  */
 
-package com.github.torbs00.stockmaster.platform.spigot.plugin;
-
-import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.logging.Level;
+package com.github.torbs00.stockmaster.foundation;
 
 /**
- * This will run once the server platform is detected.
- * SQL operations will need to be performed when the server terminates.
- * Therefore, in case the main thread becomes unresponsive, I don't want it killed by the watchdog thread; Hence the synchronized methods.
- *
  * @author Torbjørn on 23.04.2023.
  * @project StockMaster.
  */
-public class SpigotPlugin extends JavaPlugin {
+public interface Foundation {
 
-    @Override
-    public synchronized void onEnable() {
-        getLogger().log(Level.INFO, "Spigot found!");
-    }
+    void start();
 
-    @Override
-    public synchronized void onDisable() {
-
-    }
-
+    void close();
 }

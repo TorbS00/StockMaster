@@ -21,6 +21,8 @@ package com.github.torbs00.stockmaster.platform.paper.plugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.logging.Level;
+
 /**
  * This will run once the server platform is detected.
  * SQL operations will need to be performed when the server terminates.
@@ -33,7 +35,7 @@ public class PaperPlugin extends JavaPlugin {
 
     @Override
     public synchronized void onEnable() {
-
+        getLogger().log(Level.INFO, "Paper found!");
     }
 
     @Override
