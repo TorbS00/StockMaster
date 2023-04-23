@@ -87,6 +87,11 @@
                 <artifactId>stock-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.github.torbs00</groupId>
+                <artifactId>stock-foundation</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <!-- Internal dependencies -->
             <dependency>
                 <groupId>com.github.ben-manes.caffeine</groupId>
