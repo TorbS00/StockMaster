@@ -11,6 +11,7 @@
         <module>stock-core</module>
         <module>stock-api</module>
         <module>stock-platform</module>
+        <module>stock-foundation</module>
     </modules>
     <packaging>pom</packaging>
 
